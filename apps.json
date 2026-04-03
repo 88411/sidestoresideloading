@@ -1,37 +1,80 @@
 {
-  "identifier": "com.88411.mysource",
   "name": "88411",
   "subtitle": "Spotify+Youtube",
-  "description": "Remove Ads from Spotify, YouTube, and maybe more.",
-  "iconURL": "https://googleusercontent.com",
-  "website": "https://github.io",
+  "description": "Remove Ads from Spotify, YouTube, and maybe more. ",
+  "iconURL": "https://lh3.googleusercontent.com/a/ACg8ocIAzN0NtNLLW6AbT-bBIBZ09FO57UOMIYqaOQ-OtyQVxywme5TJ=s288-c-no",
+  "website": "",
+  "patreonURL": "",
   "tintColor": "#e29c56",
+  "featuredApps": [
+    "com.88411youtube",
+    "com.88411spotify"
+  ],
   "apps": [
     {
       "name": "Spotify+",
       "bundleIdentifier": "com.88411spotify",
+      "marketplaceID": "",
       "developerName": "88411",
-      "subtitle": "No Ads",
-      "localizedDescription": "Spotify with EeveeSpotify features.",
-      "iconURL": "https://imgur.com",
+      "subtitle": "",
+      "localizedDescription": "",
+      "iconURL": "https://i.imgur.com/ZHIpWi5.png",
       "tintColor": "#e29c56",
-      "downloadURL": "https://github.com",
-      "version": "1.0",
-      "versionDate": "2024-03-21T00:00:00Z",
-      "size": 89700000
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/88411/sidestoresideloading/releases/download/idk/EeveeSpotify.9.1.12.ipa",
+          "size": 89700000,
+          "version": "1.0",
+          "buildVersion": "",
+          "date": "2026-04-03T02:52:00-07:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.88411.s"
+        ],
+        "privacy": {
+          "idk": "yes"
+        }
+      },
+      "patreon": {}
     },
     {
       "name": "Youtube+",
       "bundleIdentifier": "com.88411youtube",
+      "marketplaceID": "",
       "developerName": "88411",
-      "subtitle": "No Ads",
-      "localizedDescription": "YouTube with Plus features.",
-      "iconURL": "https://pinimg.com",
+      "subtitle": "",
+      "localizedDescription": "",
+      "iconURL": "https://i.pinimg.com/736x/96/9c/1f/969c1fc84ff0fe941ec48b618f9fbaaf.jpg",
       "tintColor": "#e29c56",
-      "downloadURL": "https://github.com",
-      "version": "1.0",
-      "versionDate": "2024-03-21T00:00:00Z",
-      "size": 123000000
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/88411/sidestoresideloading/releases/download/idk/YouTubePlus_5.2b4.1.ipa",
+          "size": 123000000,
+          "version": "1.0",
+          "buildVersion": "",
+          "date": "2026-04-03T02:52:00-07:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.88411.y"
+        ],
+        "privacy": {
+          "idk": "yes"
+        }
+      },
+      "patreon": {}
     }
-  ]
+  ],
+  "news": []
 }
